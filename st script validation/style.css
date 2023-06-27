@@ -1,0 +1,75 @@
+body {
+
+    background-image: linear-gradient(rgb(245, 243, 243), rgb(15, 15, 14));
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-attachment: center;
+    color: rgb(7, 7, 7);
+}
+
+
+
+
+.container {
+    position: relative;
+
+
+}
+
+.black-box {
+
+    background-image: url(images/stt.jpeg);
+    top: 0px;
+    position: absolute;
+
+    height: 110px;
+    margin: 30px;
+    background-color: black;
+    border-top-right-radius: 29px;
+    border-bottom-left-radius: 29px;
+    width: 94%;
+
+}
+
+.gray-box {
+    position: relative;
+
+    height: 850px;
+    width: 68%;
+    left: 17%;
+    top: 121px;
+    background-image: url(images/st.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-attachment: center;
+  
+    opacity: 0.6;
+
+
+}
+
+.gray-box:hover {
+    box-shadow: 10px 10px 5px 12px rgba(89, 92, 94, 0.952);
+    opacity: 1;
+    
+}
+
+.gray-box {
+
+    border-bottom-left-radius: 29px;
+    border-top-right-radius: 29px;
+    padding: 20px;
+    filter: saturate(3);
+
+
+}
+
+.gray-box input {
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+  
